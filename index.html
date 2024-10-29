@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>D3.js Dashboard</title>
+    <style>
+        .chart-container {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        .line {
+            fill: none;
+            stroke-width: 2;
+        }
+        .legend {
+            font-size: 12px;
+        }
+        .axis-label {
+            font-size: 12px;
+        }
+        .bar {
+            opacity: 0.8;
+        }
+        .scatter-dot {
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="chart-container">
+        <div id="temperature-chart"></div>
+        <div id="monthly-chart"></div>
+        <div id="scatter-plot"></div>
+        <div id="heatmap"></div>
+        <div id="pie-chart"></div>
+    </div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
